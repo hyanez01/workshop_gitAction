@@ -1,0 +1,10 @@
+name: holamundo
+on:
+  push:
+    branches:
+      - "main"
+jobs:
+  holamundonvo:
+    runs-on: ubuntu-latest
+    - name: imprimir
+          run: echo "hola mundo"
