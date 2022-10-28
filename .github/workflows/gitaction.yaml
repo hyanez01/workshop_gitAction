@@ -7,4 +7,4 @@ jobs:
   holamundonvo:
     runs-on: ubuntu-latest
     - name: imprimir
-          run: echo "hola mundo"
+      run: echo "hola mundo"
